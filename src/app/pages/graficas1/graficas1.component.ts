@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styles: []
 })
 export class Graficas1Component implements OnInit {
-
+  public labels1 = ['Pan', 'Refrescos', 'tacos'];
+  public data1 = [10, 5, 40];
   constructor() { }
 
   ngOnInit() {
