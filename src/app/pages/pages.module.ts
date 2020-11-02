@@ -9,6 +9,7 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { ComponentsModule } from '../components/components.module';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -17,12 +18,14 @@ import { ComponentsModule } from '../components/components.module';
     DashboardComponent,
     ProgressComponent,
     Graficas1Component,
-    PagesComponent],
+    PagesComponent,
+    AccountSettingsComponent],
   exports: [
     DashboardComponent,
     ProgressComponent,
     Graficas1Component,
-    PagesComponent],
+    PagesComponent,
+    AccountSettingsComponent],
   imports: [
     CommonModule,
     FormsModule,
